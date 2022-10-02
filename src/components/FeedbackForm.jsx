@@ -1,5 +1,4 @@
 import { useState, useContext, useEffect } from 'react'
-import Card from "./Shared/Card"
 import RatingSelect from './RatingSelect'
 import Button from "./Shared/Button"
 import React from 'react'

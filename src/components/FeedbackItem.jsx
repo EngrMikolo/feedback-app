@@ -8,10 +8,6 @@ function FeedbackItem({ item }) {
 
   const {deleteFeedback, editFeedback} = useContext(FeedbackContext)
 
-  const handleClick = (id) =>{
-    console.log(id)
-  }
-
   return (
     <Card>
         <div className="num-display">{item.rating}</div>
